@@ -182,6 +182,7 @@ server.post("/create-payment-intent", async (req, res) => {
     automatic_payment_methods: {
       enabled: true,
     },
+
   });
 
   res.send({
